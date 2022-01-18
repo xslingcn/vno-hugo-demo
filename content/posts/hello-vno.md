@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: ["Say Hi", "Vno"]
-title: "Hello World Vno"
+title: "Hello Vno"
 date: 2021-07-19T07:28:27+08:00
 math: false
 draft: false
@@ -29,3 +29,12 @@ If you want to enable MathJax support, set `math` param in the front matter to `
 
 You could replace the background and avatar image in `static/images` folder to change them.
 
+#### Sites using Vno
+
+[My blog](https://xsl.sh) is using `Vno Hugo` as well, you could see how it works in real. There are some other sites using the same theme. You can find them below:
+
+| Site Name    | URL                                                |
+| ------------ | ---------------------------------------------------|
+| Xsling's   | [https://xsl.sh](https://xsl.sh)           |
+
+> If you happen to be using this theme, welcome to [send me a pull request](https://github.com/xslingcn/Vno-Hugo/pulls) to add your site link here. :)
