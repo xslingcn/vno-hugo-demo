@@ -16,7 +16,11 @@ paginatePath = "page"
     identifier = "projects"
     url = "http://project.onevcat.com/"
     weight = 10
-
+ [[menu.main]]
+    name = "Tags"
+    identifier = "Tags"
+    url = "/tags/"
+    weight = 20
 [taxonomies]
     tag = "tags"
     
@@ -30,8 +34,15 @@ welcomeMessage = "Oh What a World"
 coverColor = "red"
 
 [params.comment]
-disqus = "vno-hugo"
+disqus = ""
 duoshuo = ""
+
+# Take a look on https://github.com/gitalk/gitalk#usage for more info.
+[params.comment.gitalk]
+ID = "e5546fe5dbd6d6127544"
+secret = "91cd2f3a5470b76d98a71684b74882921e37b019"
+repo = "vno-hugo-demo"
+owner = "xslingcn"
 
 [params.social]
 weibo = "onevcat"
